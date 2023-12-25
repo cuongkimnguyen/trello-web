@@ -10,6 +10,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
+    //React
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
@@ -18,6 +19,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react/display-name': 0,
 
+    //Common
     'no-console': 1,
     'no-lonely-if': 1,
     'no-unused-vars': 1,
@@ -35,6 +37,14 @@ module.exports = {
     'keyword-spacing': 1,
     'comma-dangle': 1,
     'comma-spacing': 1,
-    'arrow-spacing': 1
+    'arrow-spacing': 1,
+
+    //MUI
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["@mui/*/*/*"]
+      }
+    ]
   },
 }
