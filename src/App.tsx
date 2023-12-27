@@ -1,10 +1,11 @@
-import CssBaseline from '@mui/material/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline'
 function App() {
 
   return (
     <>
       <div>
         <p>đây là page số 1</p>
+        <CssBaseline/>
       </div>
     </>
   );
