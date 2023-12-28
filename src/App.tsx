@@ -50,19 +50,3 @@ const ModeSystem = () => {
     </FormControl>
   )
 }
-
-function App() {
-  return (
-    <>
-      <div>
-        <p>đây là page số 1</p>
-      </div>
-      <Typography variant='body2' color='text.secondary'>
-        Test theming
-      </Typography>
-      <ModeSystem />
-    </>
-  )
-}
-
-export default App
